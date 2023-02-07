@@ -1,0 +1,87 @@
+body{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/583/789/175/soccer-barcelona-match-stadium-el-clasico-camp-nou-1920x1080-sports-football-hd-art-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     position: absolute; 
+    
+}
+h2{
+    text-align: center;
+    font-size: 4.5em;
+  background-color: #141f7200;
+  color: rgba(255, 255, 255, 0.753);
+  padding: 20px 40px;
+  border: 0;
+  box-shadow: 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 0 0 5px rgb(0, 0, 2), 0 0 30px rgba(0, 0, 2 ), 0 0 90px rgba(0, 0, 2);
+}
+.parrafo{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px 40px;
+    border: 0px;
+    box-shadow: 0;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.753);
+    background-color: #141f72c2;
+    text-shadow: 0 0 5px rgb(0, 0, 2), 0 0 30px rgba(0, 0, 2 );
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#imagen1{
+    width: 180px;
+    height: 120px;
+    border-radius: 10%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    
+}
+#imagen2{
+    width: 180px;
+    height: 120px;
+    border-radius: 10%;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+}
+#worksBtn1{
+    font-size: 20px;
+    background-color: #141f72;
+    color: rgba(255, 255, 255, 0.751);
+    padding: 10px 20px;
+    border: 0;
+    box-shadow: 0 0 5px rgb(14, 5, 112), 0 0 25px rgb(14, 5, 112);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 100px;
+    top:0em;
+    transition: 0.03s;
+    animation: animate 5s linear infinite;
+  }
+  button:hover{
+    box-shadow: 0 0 5px rgb(14, 5, 112), 0 0 25px rgb(14, 5, 112), 0 0 50px rgb(14, 5, 112 ), 0 0 100px rgb(14, 5, 112), 0 0 200px rgb(14, 5, 112);
+    letter-spacing: 2px; 
+  }
+  #worksBtn2{
+      font-size: 20px;
+      background-color: #721414;
+      color: rgba(255, 255, 255, 0.751);
+      padding: 10px 20px;
+      border: 0;
+      box-shadow: 0 0 5px rgb(112, 5, 5), 0 0 25px rgb(112, 5, 5);
+      border-radius: 5px;
+      margin-bottom: 20px;
+      position: absolute;
+      left: 0px;
+      top:0em;
+      transition: 0.03s;
+      animation: animate 5s linear infinite;
+    }
+    button:hover{
+      box-shadow: 0 0 5px rgb(112, 5, 5), 0 0 25px rgb(112, 5, 5), 0 0 50px rgb(112, 5, 5), 0 0 100px rgb(112, 5, 5), 0 0 200px rgb(112, 5, 5);
+      letter-spacing: 2px; 
+    }

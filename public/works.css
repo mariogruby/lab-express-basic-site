@@ -1,0 +1,76 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://s1.eestatic.com/2021/11/23/actualidad/629450006_215987872_1706x960.jpg);
+
+}
+
+p{
+    font-size: 2em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.753);
+    background-color: #141f7238;
+    text-shadow: 0 0 5px rgb(0, 0, 2), 0 0 30px rgba(0, 0, 2 );
+}
+h1{
+ text-align: center;
+font-size: 4.5em;
+  background-color: #141f7200;
+  color: rgba(255, 255, 255, 0.753);
+  padding: 20px 40px;
+  border: 0;
+  box-shadow: 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 0 0 5px rgb(0, 0, 2), 0 0 30px rgba(0, 0, 2 ), 0 0 90px rgba(0, 0, 2), 0 0 150px rgba(0, 0, 2), 0 0 200px rgba(0, 0 ,2), 0 0 300px rgba(0, 0 ,2), 0 0 400px rgba(0, 0, 2), 0 0 500px rgba(0, 0, 2), 0 0 600px rgba(0, 0 ,2), 0 0 700px rgba(0, 0, 2);
+}
+li{
+    margin: 0;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.753);
+    background-color: #141f7200;
+    text-shadow: 0 0 5px rgb(0, 0, 2), 0 0 30px rgba(0, 0, 2 );
+    text-align:center;
+    list-style-type: none;
+    
+}
+
+#worksBtn1{
+  font-size: 20px;
+  background-color: #141f72;
+  color: rgba(255, 255, 255, 0.751);
+  padding: 10px 20px;
+  border: 0;
+  box-shadow: 0 0 5px rgb(14, 5, 112), 0 0 25px rgb(14, 5, 112);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 100px;
+  top:10px;
+  transition: 0.03s;
+  animation: animate 5s linear infinite;
+}
+button:hover{
+  box-shadow: 0 0 5px rgb(14, 5, 112), 0 0 25px rgb(14, 5, 112), 0 0 50px rgb(14, 5, 112 ), 0 0 100px rgb(14, 5, 112), 0 0 200px rgb(14, 5, 112);
+  letter-spacing: 2px; 
+}
+#worksBtn2{
+    font-size: 20px;
+    background-color: #721414;
+    color: rgba(255, 255, 255, 0.751);
+    padding: 10px 20px;
+    border: 0;
+    box-shadow: 0 0 5px rgb(112, 5, 5), 0 0 25px rgb(112, 5, 5);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0px;
+    top:10px;
+    transition: 0.03s;
+    animation: animate 5s linear infinite;
+  }
+  button:hover{
+    box-shadow: 0 0 5px rgb(112, 5, 5), 0 0 25px rgb(112, 5, 5), 0 0 50px rgb(112, 5, 5), 0 0 100px rgb(112, 5, 5), 0 0 200px rgb(112, 5, 5);
+    letter-spacing: 2px; 
+  }
